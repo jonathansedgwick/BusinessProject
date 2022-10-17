@@ -7,6 +7,8 @@ fun main() {
     var banana = Food("10/31/2022",false, "Fruit", "Banana", 2.50, false)
     var potato = Food("11/5/2022",false, "Vegetable", "Potato", 1.50, true)
     var cucumber = Food("10/27/2022",true, "Vegetable", "Cucumber", 2.35, false)
+    var shirt = NonFood("Clothing", "Shirt", 12.50, false,)
+
 
     try {
         var choice = 0
