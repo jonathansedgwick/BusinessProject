@@ -22,11 +22,6 @@ open class Item constructor(name: String, price: Double, onSale: Boolean) {
         this.onSale = onSale
     }
 
-    fun calc(qty: Int): Double {
-        var p = 0.0
-        if (onSale)
-            p -= p * .2
-        p *= qty
-        return p
-    }
+
+
 }

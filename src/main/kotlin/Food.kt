@@ -22,5 +22,9 @@ class Food constructor(exDate: String, isRefrig: Boolean, type: String, name: St
         this.type = type
     }
 
+    fun display() {
+        println("$name| $type, Is refrigerated: $isRefrig, Expiration Date: $exDate\n" +
+                "Price: $price, On sale: $onSale")
+    }
 
 }
